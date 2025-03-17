@@ -1,0 +1,7 @@
+baseURL = 'https://hypermacros.com/'
+languageCode = 'en-us'
+title = "hypermacros"
+theme = 'hugo-bearblog'
+
+[params]
+hideMadeWithLine = true
