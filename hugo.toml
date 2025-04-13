@@ -1,6 +1,6 @@
-baseURL = 'https://hypermacros.com/'
+baseURL = 'https://bnuredini.github.io'
 languageCode = 'en-us'
-title = "hypermacros"
+title = "one breakpoint"
 theme = 'hugo-bearblog'
 
 [params]
