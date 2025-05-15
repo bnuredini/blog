@@ -1,4 +1,4 @@
-baseURL = 'http://bnuredini.github.io/blog'
+baseURL = 'https://onbreakpoint.com'
 languageCode = 'en-us'
 title = "on breakpoint"
 theme = 'hugo-bearblog'

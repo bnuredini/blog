@@ -1,12 +1,12 @@
 +++ 
 title = 'Ahoy'
-date = 2025-04-13
+date = 2025-05-15
 +++ 
  
 Ahoy, fellow hacker! 
 
 You've found my home on the Internet. Here you should expect to read about programming, design,
-software, and anything else that piques my interest.
+engineering, and anything else that piques my interest.
 
 I've seen so many programming blogs starting off with an enthusiastic post about the blog's
 meticulously-crafted infrastructure, using the latest static-site generator written in the author's
