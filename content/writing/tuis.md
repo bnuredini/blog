@@ -1,6 +1,5 @@
 +++
 title = 'Terminal User Interfaces'
-draft = true
 date = 2025-05-20
 +++
 
@@ -23,14 +22,14 @@ Looking at how user interface have evolved over the years, you can see that the 
 representing interactive UI elements via text was pretty common before it became apparent that
 interactive elements like menus, button, windows, icons, modals, and input fields could be better
 represented via a visual medium that wasn't limited by what a terminal could render. The graphical
-model is more flexible and expressive because it can render UI elements more distinctively. This not
-only makes some interfaces easier to use, but it makes possible interfaces that couldn't have been
-conceived of in the terminal. It makes programs that are trying to solve inherently complex problems
-(think Photoshop, Figma, Unreal Engine) possible by adding support for rendering high-quality assets
-(images, videos, and 3D objects), integrating with the host operating system (notifications, file
-pickers, and other native OS features), smooth animations, and graphical richness. So TUIs -- which
-even then were used primarily by more technical users -- remained a niche and then dropped into
-popularity even further. 
+model was more powerful because it could render UI elements more expressively. This not only made
+some interfaces easier to use, but it allowed for different types of user interfaces that couldn't
+have been conceived of in the terminal. It made programs that were trying to solve inherently
+complex problems (think Photoshop, Figma, Unreal Engine) possible by adding support for rendering
+high-quality assets (images, videos, and 3D objects), smooth animations, and better operating system
+integration (notifications, file pickers, and other native OS features) with graphical richness and
+high performance. So TUIs -- which even then were used primarily by more technical users -- remained
+a niche and then dropped into popularity even further. 
 
 Considering these limitations (or maybe because of these limitations), I sense that TUIs got a
 mini-revival in certain programming communities where people would show off screenshots of their
@@ -84,7 +83,7 @@ inclined to modify the program to suit their personal preferences -- this could 
 colorscheme, icons, fonts, and the actions onto which keyboard shortcuts are mapped to.
 
 Related to user expectations, it's worth pointing out that there's a cultural difference between the
-two paradigms [1]. The fact that TUIs are harder to use for beginners means that the userbase is
+two paradigms [0]. The fact that TUIs are harder to use for beginners means that the userbase is
 composed of power users and development is meant to cater to the needs of those power users, and
 thus features are much more sophisticated that they would have been otherwise. 
 
@@ -99,7 +98,7 @@ it's still a program inside of a window, so these benefits aren't exclusive to T
 An inherit advantage of the TUI model is that which limits in the first place: the terminal. (This
 is the last point, mentioned on the list above.) People who live on their terminals prefer to keep
 most of their everyday programs inside the terminal because it acts a layer, an operating system of
-sorts, for them to work on top of [0]. Having everything in your terminal means that you get to use
+sorts, for them to work on top of [1]. Having everything in your terminal means that you get to use
 one set of keybindings for creating and switching through tabs, splitting panes, running scripts,
 and more. 
 
@@ -134,10 +133,11 @@ keep findings new gems in terminal world.
 
 ---
 
-[0] A common, misguided belief is that these users prefer the terminal because of the aesthetics or
+[0] And I didn't list this as a benefit because I'm still unsure whether it really is a benefit --
+considering that it's debatable whether the pros outweigh the cons.
+
+[1] A common, misguided belief is that these users prefer the terminal because of the aesthetics or
 because it acts as a form of virtue signaling, which may very well be the case for some, and might
 have been for me too when I was a more impressionable programmer; but, I think there are pragmatic
 reasons why the terminal interface works so well for programmers.
 
-[1] And I didn't list this as a benefit because I'm still unsure whether it really is a benefit --
-considering that it's debatable whether the pros outweigh the cons.
