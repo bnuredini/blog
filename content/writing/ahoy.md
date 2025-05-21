@@ -2,6 +2,8 @@
 title = 'Ahoy'
 date = 2025-05-15
 +++ 
+
+# Ahoy
  
 Ahoy, fellow hacker! 
 
