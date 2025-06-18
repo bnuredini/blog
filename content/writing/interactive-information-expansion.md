@@ -5,9 +5,7 @@ date = 2025-06-17
 
 # Interactive Information Expansion
  
-(TODO: Change title.) 
- 
-(TODO: I've found that some the most useful writing on AI is that of the kind that goes "How I use
+I've found that some the most useful writing on AI is that of the kind that goes "Here's how I use
 AI/LLMs/ChatGPT as an X" where X is usually a programmer or a researcher of some kind. 
 [Simon Willison](https://simonwillison.net/series/using-llms/), for example, has a series called [How I use LLMs and ChatGPT](https://simonwillison.net/series/using-llms/)
 that gives you a decent picture of where AI is actually useful, instead of having to take someone's
@@ -73,7 +71,9 @@ but this one has more energy and patience and won't judge you like a normal tuto
 
 Now for a cold shower, because LLMs are still far from being perfect. What I'm talking about here is
 still normative: I would like for the depth/verbosity knobs to be reliable, but that's not always
-the case. When you want something very specific, the amount of effort it takes to get that specific
+the case. Some models are particularly verbose and instructing them otherwise sometimes result in
+missing information, rather than conciseness. Another issue where these models fail sometimes is
+when you want something very specific. Sometimes the amount of effort it takes to get that specific
 thing often outweighs the amount of effort that you would have otherwise spent on just looking at a
 more comprehensive source of information like a book or a paper.
 
