@@ -34,7 +34,7 @@ The problem with the latter case (i.e., slowing down the pace or rereading when 
 challenging) is that it doesn't always work. The alternatives in this case often are: (1) reading
 something that's adjacent to what we're trying to learn, (2) reading a textbook on the same topic
 that's less technical or easier to approach for our current level of understanding, (3) working
-through exercises, or (4) chaining the learning medium (e.g., going from text to video). After going
+through exercises, or (4) changing the learning medium (e.g., going from text to video). After going
 through some of these options, one could go back to tackling the topic at hand more prepared than
 before.
 
@@ -47,9 +47,9 @@ invest in one topic. You control the depth, verbosity, language, examples, and t
 a topic. 
 
 You can decide if, instead of using fictional or over-simplified "textbook examples," you want to
-read about actual real-world applications of thing you're reading -- or you can do the opposite: you
-may decide that you don't want to get bogged down into the implementation details of something and
-ask for a simplified example, instead. 
+read about actual real-world applications of the thing you're reading -- or you can do the opposite:
+you may decide that you don't want to get bogged down into the implementation details of something
+and ask for a simplified example, instead. 
 
 You could perhaps use your current knowledge and prompt the LLM to find differences between the
 information you currently have and the one you want to obtain. (This is why books like "Java for C++
