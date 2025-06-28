@@ -1,7 +1,7 @@
 +++ 
 title = 'Ideas for Tooling in Education'
 date = 2025-06-28
-draft = true
+draft = false
 +++ 
 
 # Ideas for Tooling in Education
