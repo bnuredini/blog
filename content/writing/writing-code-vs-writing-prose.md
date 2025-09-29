@@ -28,6 +28,11 @@ can run to test resource usage, latency, frames per second, or some other metric
 find relevant. There's no such for proxy for writing prose. There's no definitive way of knowing
 whether what you've written will resonate with anyone out there.
 
+Writing and programming aren't always working on the goals. With writing, you are trying to
+communicate to another human. With code, you're trying to communicate with a language that's been
+designed for controlling a computer. Since your code will be read by other humans, you'll also want
+to take that into account, but that's not always the goal that you want to optimize for. 
+
 As a writer, you take pride in your style and ability to challenge convention. And while a
 programmer can develop taste and personal style too, that isn't exactly a must have if you want to
 write good code.
