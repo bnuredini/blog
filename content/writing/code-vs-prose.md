@@ -41,9 +41,6 @@ As a writer, you take pride in your style and ability to challenge convention. A
 can develop taste and personal style, that's not exactly a hard requirement for writing excellent
 code.
 
-<!-- TODO: Make the point about individuality and don't mingle it with the point about different
-kinds of writing. -->
-
 Just like there are different kinds of writing, there are also different kinds of programming. But,
 what often ends up happening is that organizations tend to want to unify these differences so they
 don't rely on certain programmers if they ever decide to leave. During review, code is often
