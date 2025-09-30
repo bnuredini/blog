@@ -7,7 +7,7 @@ draft = true
 # Writing Code vs. Writing Prose
 
 Programming languages were developed because natural language isn't adequate to communicate
-instructions to computers. Unlike natural langauge, programming languages consist of tools which are
+instructions to computers. Unlike natural language, programming languages consist of tools which are
 very composable. You can take a line of code and start putting things into it or removing things
 from it to drastically change its meaning. Doing that with natural language is also possible, but
 not the extent that it is with a programming language. With code, operations can be stacked, complex
@@ -15,24 +15,31 @@ behavior (which would take dozens of sentences to explain properly in natural la
 represented with a couple of lines of code, and special notation/syntax is developed to aid
 readability.
 
-With code, you can take a poorly-written codebase and improve it little by little, incrementally,
-until you're left with something which is pretty decent. You can't really do the same with prose.
-You can make slight adjustments, but you can't convert a terrible book into a great one by redacting
-it repeatedly. Sometimes the whole point of good prose is to have good flow and that flow is often
-ruined by heavy editing.
+Because code is so malleable, you can take a poorly-written codebase and improve it little by
+little, incrementally, until you're left with something which is pretty decent. You can't really do
+the same with prose. You can make slight adjustments, but you can't convert a terrible book into a
+great one by revising it repeatedly. Sometimes the whole point of good prose is to have good flow
+and that flow is often ruined by heavy editing.
 
-With software, you have proxies you can use for measuring how well you're doing. For a functional
-requirement (like adding a new feature, e.g.), you usually have a clear indicator of success: the
-feature either works or it doesn't. For a non-functional requirement, you have benchmarks which you
-can run to test resource usage, latency, frames per second, or some other metrics that you might
-find relevant. There's no such for proxy for writing prose. There's no definitive way of knowing
-whether what you've written will resonate with anyone out there.
+Code differs from natural language in that code is used to instruct a computer to do something. With
+natural language you're trying to communicate to another human. Thinking in a language that's been
+designed to control computers isn't natural for the human brain, so it's only natural that
+programmers use tight feedback loops to get things right. Thinking in natural language is
+(hopefully) natural for humans, that's why converting your stream of thought directly into words,
+without too much alteration, leads to beautiful prose. To communicate effectively you need a sense
+of flow and emotional sensitivity that you just can't improve by increasing the number of
+iterations.
 
-<!-- TODO: Improve this. -->
+Another difference is that, with software, you have proxies you can use for measuring how well
+you're doing. For a functional requirement (like adding a new feature, e.g.), you usually have a
+clear indicator of success: the feature either works or it doesn't. For a non-functional
+requirement, you have benchmarks which you can run to test resource usage, latency, frames per
+second, or some other metrics that you might find relevant. Writers don't have such a proxy. There's
+no definitive way of knowing if your writing will resonate with anyone out there.
 
-As a writer, you take pride in your style and ability to challenge convention. And while a
-programmer can develop taste and personal style too, that isn't exactly a must have if you want to
-write good code.
+As a writer, you take pride in your style and ability to challenge convention. And while programmers
+can develop taste and personal style, that's not exactly a hard requirement for writing excellent
+code.
 
 <!-- TODO: Make the point about individuality and don't mingle it with the point about different
 kinds of writing. -->
@@ -45,9 +52,6 @@ what you need to do improve your code with regards to what's considered good cod
 organization. On the other hand, an editor can give you pointers, but they won't be able to write
 for you and, with the exception of straightforward mistakes, they won't be able to provide
 definitive suggestions.
-
-<!-- TODO: Maybe make the point about how TODOs don't really work when writing prose. (Oh, the
-irony.) -->
 
 There are similarities, of course. One thing that code- and prose-writing have in common is that
 both activities can be used as a means of exploration, not just as means to an end. Writers often
@@ -62,4 +66,5 @@ I've been thinking about these differences lately because I've noticed that I ha
 treat my prose like code. When I write a blog article, I always think that I can improve it on the
 next sitting. I think of drafts as unfinished projects that can always be tweaked. But, what I've
 found is that if I come up with something that just isn't good enough, no amount of tweaking will do
-the job. At that point, starting from scratch and rethinking the entire thing is right thing to do. 
+the job. At that point, starting from scratch and rethinking the entire thing is usually the right
+thing to do.
