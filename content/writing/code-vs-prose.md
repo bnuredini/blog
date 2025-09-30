@@ -1,6 +1,6 @@
 +++ 
 title = "Writing Code vs Writing Prose"
-date = 2025-09-29
+date = 2025-10-01
 draft = true
 +++ 
 
