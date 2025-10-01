@@ -1,7 +1,7 @@
 +++ 
 title = "Writing Code vs Writing Prose"
 date = 2025-10-02
-draft = true
+draft = false
 +++ 
 
 # Writing Code vs. Writing Prose
