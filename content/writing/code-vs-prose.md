@@ -7,10 +7,10 @@ draft = true
 # Writing Code vs. Writing Prose
 
 Programming languages were developed because natural language isn't adequate to communicate
-instructions to computers. Unlike natural language, programming languages consist of tools which are
-very composable. You can take a line of code and start putting things into it or removing things
-from it to drastically change its meaning. Doing that with natural language is also possible, but
-not the extent that it is with a programming language. With code, operations can be stacked, complex
+instructions to computers. Unlike natural language, programming languages have strong composability:
+you can take a line of code and start putting things into it or removing things from it to
+drastically change its meaning. Doing that with natural language is also possible, but not the
+extent that it is with a programming language. With code, operations can be stacked, complex
 behavior (which would take dozens of sentences to explain properly in natural language) can be
 represented with a couple of lines of code, and special notation/syntax is developed to aid
 readability.
@@ -21,25 +21,23 @@ the same with prose. You can make slight adjustments, but you can't convert a te
 great one by revising it repeatedly. Sometimes the whole point of good prose is to have good flow
 and that flow is often ruined by heavy editing.
 
-Code differs from natural language in that code is used to instruct a computer to do something. With
-natural language you're trying to communicate to another human. Thinking in a language that's been
-designed to control computers isn't natural for the human brain, so it's only natural that
-programmers use tight feedback loops to get things right. Thinking in natural language is
-(hopefully) natural for humans, that's why converting your stream of thought directly into words,
-without too much alteration, leads to beautiful prose. To communicate effectively you need a sense
-of flow and emotional sensitivity that you just can't improve by increasing the number of
-iterations.
+Code differs from natural language in that code is used to control a computer. Natural language is
+used to communicate to another human. Thinking in a language that's been designed to control
+computers isn't natural for the human brain, that's why programmers use tight feedback loops and
+iterative improvement to get things right. Thinking in natural language is (hopefully) natural for
+humans, that's why converting your stream of thought directly into words, without too much
+alteration, leads to beautiful prose. To communicate effectively you need a sense of flow and
+emotional sensitivity that you just can't improve by increasing the number of iterations.
 
-Another difference is that, with software, you have proxies you can use for measuring how well
-you're doing. For a functional requirement (like adding a new feature, e.g.), you usually have a
-clear indicator of success: the feature either works or it doesn't. For a non-functional
-requirement, you have benchmarks which you can run to test resource usage, latency, frames per
-second, or some other metrics that you might find relevant. Writers don't have such a proxy. There's
-no definitive way of knowing if your writing will resonate with anyone out there.
+Another difference is that, with software, you have proxies for measuring how well you're doing. For
+a functional requirement (like adding a new feature, e.g.), you usually have a clear indicator of
+success: the feature either works or it doesn't. For a non-functional requirement, you have
+benchmarks you can run to test resource usage, latency, frames per second, or some other metrics
+that you might find relevant. Writers don't have such proxies. There's no definitive way of knowing
+if your writing will resonate with anyone out there.
 
 As a writer, you take pride in your style and ability to challenge convention. And while programmers
-can develop taste and personal style, that's not exactly a hard requirement for writing excellent
-code.
+can develop taste and personal style, that's not exactly a hard requirement for writing good code.
 
 Just like there are different kinds of writing, there are also different kinds of programming. But,
 what often ends up happening is that organizations tend to want to unify these differences so they
