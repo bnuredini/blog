@@ -1,7 +1,6 @@
 +++ 
-title = "Writing Code vs Writing Prose"
+title = 'Writing Code vs. Writing Prose'
 date = 2025-10-02
-draft = false
 +++ 
 
 # Writing Code vs. Writing Prose
