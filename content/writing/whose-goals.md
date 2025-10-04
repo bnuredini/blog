@@ -1,7 +1,7 @@
 +++ 
 title = "Whose Goals Are You Chasing?"
 date = 2025-10-04
-draft = false
+draft = true
 +++ 
 
 # Who's Goals Are You Chasing?
