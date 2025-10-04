@@ -4,7 +4,7 @@ date = 2025-10-04
 draft = true
 +++ 
 
-# Who's Goals Are You Chasing?
+# Whose Goals Are You Chasing?
 
 You join a tech company, you see driven people working hard to make what they think is important.
 You want to fit in, to be useful, to contribute. Surrounded by this energy, your own goals are
