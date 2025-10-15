@@ -1,7 +1,7 @@
 baseURL = 'https://onbreakpoint.com'
 languageCode = 'en-us'
 title = "on breakpoint"
-theme = 'hugo-bearblog'
+theme = 'harku'
 
 [params]
 hideMadeWithLine = true
