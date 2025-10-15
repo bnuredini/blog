@@ -5,26 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="no-referrer-when-downgrade">
 
-  {{- partial "favicon.html" . -}}
+  {{- partial "favicon.gohtml" . -}}
   <title>
     {{- block "title" . }}{{ with .Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{- end }}
   </title>
 
-  {{- partial "seo_tags.html" . -}}
+  {{- partial "seo_tags.gohtml" . -}}
 
   {{ with .OutputFormats.Get "rss" -}}
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
 
-  {{- partial "style.html" . -}}
-  {{- partial "custom_head.html" . -}}
+  {{- partial "style.gohtml" . -}}
+  {{- partial "custom_head.gohtml" . -}}
 </head>
 
 <body>
-  <header>{{- partial "header.html" . -}}</header>
+  <header>{{- partial "header.gohtml" . -}}</header>
   <main>  {{- block   "main"        .  }}{{- end }}</main>
-  <footer>{{- partial "footer.html" . -}}</footer>
+  <footer>{{- partial "footer.gohtml" . -}}</footer>
 
-  {{- partial "custom_body.html" . -}}
+  {{- partial "custom_body.gohtml" . -}}
 </body>
 </html>
