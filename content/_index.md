@@ -7,7 +7,8 @@ If you're wondering what I've been doing lately, check out my [/now](/now) page.
 * [pathsurfer](https://github.com/bnuredini/pathsurfer): a small terminal utility for changing directories more quickly.
 * [dotfiles](https://github.com/bnuredini/dotfiles): my config files for Neovim, fish, i3, etc. 
 * [OPC @ Celonis](https://docs.celonis.com/en/creating-on-prem-system-connections.html): 
-  an agent that Celonis ships to its customers to enable automation on on-premise infrastructure.
+  an agent that Celonis ships to its customers to offer their automation services on customer
+  on-premise infrastructure.
 
 ## Links
 
