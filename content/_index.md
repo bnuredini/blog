@@ -12,5 +12,5 @@ If you're wondering what I've been doing lately, check out my [/now](/now) page.
 ## Links
 
 * [Writing](/writing): my thoughts on things (mostly about programming and making software).
-* [RSS feed](/index.xml): follow my writing in your favorite [RSS feed reader](https://en.wikipedia.org/wiki/RSS).
+* [RSS feed](/index.xml): follow my writing in your favorite RSS feed [reader](https://en.wikipedia.org/wiki/RSS).
 * [/now](/now): what I'm focusing on right now.
