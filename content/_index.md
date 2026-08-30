@@ -1,6 +1,4 @@
-Ahoy! I'm Bleart Nuredini. I like to write software, run, and make video games.
-
-If you're wondering what I've been doing lately, check out my [/now](/now) page.
+Ahoy! I'm Bleart Nuredini and here's what I'm doing right [/now](/now).
 
 ## Projects
 

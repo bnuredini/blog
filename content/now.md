@@ -4,9 +4,9 @@ title: Now
 
 # Now
 
-*Last updated: **December 8, 2025**.*
+*Last updated: **August 29, 2026**.*
 
-* Working on [pathsurfer](https://github.com/bnuredini/pathsurfer).
-* Making a game engine from scratch.
+* Working in computer vision
+* Reading a lot of slop :(
 
 (This is my /now page, inspired by [nownownow.com](https://nownownow.com/about).)
