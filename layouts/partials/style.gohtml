@@ -1,164 +1,175 @@
 <style>
-  @font-face {
-    font-family: 'Instrument Serif';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('/fonts/instrument-serif/instrument-serif.woff2') format('woff2');
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    font-weight: 100 900;
-    font-style: normal;
-    font-display: swap;
-    src: url('/fonts/inter/inter-variable.woff2') format('woff2');
-  }
+@font-face {
+  font-family: 'Instrument Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/instrument-serif/instrument-serif.woff2') format('woff2');
+}
 
+@font-face {
+  font-family: 'Instrument Serif Fallback: New Times Roman';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Times New Roman');
+  ascent-override: 117.87%;
+  descent-override: 36.91%;
+  line-gap-override: 0.00%;
+  size-adjust: 83.99%;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  src: url('/fonts/inter/inter-variable.woff2') format('woff2');
+}
+
+:root {
+  --width: 60ch;
+  --font-heading: 'Instrument Serif', 'Instrument Serif Fallback: New Times Roman', serif;
+  --font-main: 'Inter', system-ui, sans-serif;
+  --font-scale: 1em;
+  --background-color: #fff;
+  --heading-color: #222;
+  --text-color: #000;
+  --link-color: #3273dc;
+  --visited-color: #8c97dd;
+  --code-background-color: #f2f2f2;
+  --code-color: #222;
+  --blockquote-color: #222;
+}
+
+@media (prefers-color-scheme: dark) {
   :root {
-      --width: 60ch;
-      --font-main: 'Instrument Serif', sans-serif;
-      --font-secondary: 'Inter', system-ui, Verdana;
-      --font-scale: 1em;
-      --background-color: #fff;
-      --heading-color: #222;
-      --text-color: #000;
-      --link-color: #3273dc;
-      --visited-color: #8c97dd;
-      --code-background-color: #f2f2f2;
-      --code-color: #222;
-      --blockquote-color: #222;
+    --background-color: #202020;
+    --heading-color: #eee;
+    --text-color: #fff;
+    --link-color: #8cc2dd;
+    --visited-color: #8c97dd;
+    --code-background-color: #777;
+    --code-color: #ddd;
+    --blockquote-color: #ccc;
   }
+}
 
-  @media (prefers-color-scheme: dark) {
-      :root {
-          --background-color: #202020;
-          --heading-color: #eee;
-          --text-color: #fff;
-          --link-color: #8cc2dd;
-          --visited-color: #8c97dd;
-          --code-background-color: #777;
-          --code-color: #ddd;
-          --blockquote-color: #ccc;
-      }
-  }
+body {
+  font-family: var(--font-main);
+  font-size: var(--font-scale);
+  margin: auto;
+  padding: 20px;
+  max-width: var(--width);
+  text-align: left;
+  background-color: var(--background-color);
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.5;
+  color: var(--text-color);
+}
 
-  body {
-      font-family: var(--font-secondary);
-      font-size: var(--font-scale);
-      margin: auto;
-      padding: 20px;
-      max-width: var(--width);
-      text-align: left;
-      background-color: var(--background-color);
-      word-wrap: break-word;
-      overflow-wrap: break-word;
-      line-height: 1.5;
-      color: var(--text-color);
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--heading-color);
+}
 
-  h1, h2, h3, h4, h5, h6 {
-      font-family: var(--font-main);
-      color: var(--heading-color);
-  }
+a {
+  color: var(--link-color);
+  cursor: pointer;
+  text-decoration: none;
+}
 
-  a {
-      color: var(--link-color);
-      cursor: pointer;
-      text-decoration: none;
-  }
+a:hover {
+  text-decoration: underline; 
+}
 
-  a:hover {
-      text-decoration: underline; 
-  }
+nav a {
+  margin-right: 8px;
+}
 
-  nav a {
-      margin-right: 8px;
-  }
+strong, b {
+  color: var(--heading-color);
+}
 
-  strong, b {
-      color: var(--heading-color);
-  }
+button {
+  margin: 0;
+  cursor: pointer;
+}
 
-  button {
-      margin: 0;
-      cursor: pointer;
-  }
+main {
+  line-height: 1.6;
+}
 
-  main {
-      line-height: 1.6;
-  }
+table {
+  width: 100%;
+}
 
-  table {
-      width: 100%;
-  }
+hr {
+  border: 0;
+  border-top: 1px dashed;
+}
 
-  hr {
-      border: 0;
-      border-top: 1px dashed;
-  }
+img {
+  max-width: 100%;
+}
 
-  img {
-      max-width: 100%;
-  }
+code {
+  font-family: monospace;
+  padding: 2px;
+  background-color: var(--code-background-color);
+  color: var(--code-color);
+  border-radius: 3px;
+}
 
-  code {
-      font-family: monospace;
-      padding: 2px;
-      background-color: var(--code-background-color);
-      color: var(--code-color);
-      border-radius: 3px;
-  }
+blockquote {
+  border-left: 1px solid #999;
+  color: var(--code-color);
+  padding-left: 20px;
+  font-style: italic;
+}
 
-  blockquote {
-      border-left: 1px solid #999;
-      color: var(--code-color);
-      padding-left: 20px;
-      font-style: italic;
-  }
+footer {
+  padding: 25px 0;
+  text-align: center;
+}
 
-  footer {
-      padding: 25px 0;
-      text-align: center;
-  }
+.title:hover {
+  text-decoration: none;
+}
 
-  .title:hover {
-      text-decoration: none;
-  }
+.title h1 {
+  font-size: 1.5em;
+}
 
-  .title h1 {
-      font-size: 1.5em;
-  }
+.inline {
+  width: auto !important;
+}
 
-  .inline {
-      width: auto !important;
-  }
+.highlight, .code {
+  padding: 1px 15px;
+  background-color: var(--code-background-color);
+  color: var(--code-color);
+  border-radius: 3px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  overflow-x: auto;
+}
 
-  .highlight, .code {
-      padding: 1px 15px;
-      background-color: var(--code-background-color);
-      color: var(--code-color);
-      border-radius: 3px;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
-      overflow-x: auto;
-  }
+/* blog post list */
+ul.blog-posts {
+  list-style-type: none;
+  padding: unset;
+}
 
-  /* blog post list */
-  ul.blog-posts {
-      list-style-type: none;
-      padding: unset;
-  }
+ul.blog-posts li {
+  display: flex;
+}
 
-  ul.blog-posts li {
-      display: flex;
-  }
+ul.blog-posts li span {
+  flex: 0 0 130px;
+}
 
-  ul.blog-posts li span {
-      flex: 0 0 130px;
-  }
-
-  ul.blog-posts li a:visited {
-      color: var(--visited-color);
-  }
+ul.blog-posts li a:visited {
+  color: var(--visited-color);
+}
 </style>
