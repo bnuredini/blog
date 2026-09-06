@@ -1,4 +1,3 @@
-<style>
 :root {
   --width: 60ch;
   --font-heading: 'Instrument Serif', 'Instrument Serif Fallback: New Times Roman', serif;
@@ -8,7 +7,7 @@
   --heading-color: #222;
   --text-color: #000;
   --link-color: #3273dc;
-  --visited-color: #8c97dd;
+  --visited-color: #8573dc;
   --code-background-color: #f2f2f2;
   --code-color: #222;
   --blockquote-color: #222;
@@ -86,14 +85,6 @@ img {
   max-width: 100%;
 }
 
-code {
-  font-family: monospace;
-  padding: 2px;
-  background-color: var(--code-background-color);
-  color: var(--code-color);
-  border-radius: 3px;
-}
-
 blockquote {
   border-left: 1px solid #999;
   color: var(--code-color);
@@ -118,17 +109,6 @@ footer {
   width: auto !important;
 }
 
-.highlight, .code {
-  padding: 1px 15px;
-  background-color: var(--code-background-color);
-  color: var(--code-color);
-  border-radius: 3px;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  overflow-x: auto;
-}
-
-/* blog post list */
 ul.blog-posts {
   list-style-type: none;
   padding: unset;
@@ -145,4 +125,11 @@ ul.blog-posts li span {
 ul.blog-posts li a:visited {
   color: var(--visited-color);
 }
-</style>
+
+code {
+  padding: 3px;
+}
+
+.highlight, .code {
+  overflow: scroll;
+}

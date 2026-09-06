@@ -16,13 +16,12 @@
   {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
   {{ end -}}
   
+  <link rel="stylesheet" href="/css/main.css" type="text/css">
   <link rel="stylesheet" href="/css/fonts.css" type="text/css">
 
   <link rel="preload" href="/fonts/instrument-serif/instrument-serif.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/inter/inter-latin-400-regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/inter/inter-latin-600.woff2" as="font" type="font/woff2" crossorigin>
-
-  {{- partial "style.gohtml" . -}}
 </head>
 
 <body>
