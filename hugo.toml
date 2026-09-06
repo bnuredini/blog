@@ -7,3 +7,7 @@ hideMadeWithLine = true
 
 [permalinks]
 writing = "/:slug/"
+
+[markup.highlight]
+noClasses = true
+style = "none"
