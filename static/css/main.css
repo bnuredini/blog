@@ -133,3 +133,32 @@ code {
 .highlight, .code {
   overflow: scroll;
 }
+
+.header-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  background: #ff2020;
+  border-radius: 50%;
+}
+
+.dot.animate {
+  animation: flash 8s ease-in-out 1;
+}
+
+@keyframes flash {
+  0%, 10%, 20%, 30%, 40%, 100% {
+    opacity: 1;
+    box-shadow: 0 0 8px #ff2020;
+  }
+
+  22%, 37% {
+    opacity: 0.15;
+    box-shadow: 0 0 2px #ff2020;
+  }
+}

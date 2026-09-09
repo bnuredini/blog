@@ -1,5 +1,18 @@
-<a href="{{ "" | relURL }}" class="title">
-  <h2>{{ .Site.Title }}</h2>
-</a>
+<div class="header-top">
+  <div class="dot" id="header-dot"></div>
+  <a href="{{ "" | relURL }}" class="title">
+    <h1>{{ .Site.Title }}</h1>
+  </a>
+</div>
 
-<nav>{{- partial "nav.gohtml" . -}}</nav>
+<nav>
+  <a href="{{ "" | relURL }}">Home</a>
+  
+  {{ range .Site.Menus.main }}
+  <a href="{{ .URL }}">{{ .Name }}</a>
+  {{ end }}
+  
+  <a href="{{ "essays" | relURL }}">Essays</a>
+  <a href="{{ "notes" | relURL }}">Notes</a>
+  <a href="{{ "now" | relURL }}">Now</a>
+</nav>
