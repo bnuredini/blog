@@ -20,13 +20,13 @@ brew install neovim fish fnm fzf fd bat tokei zoxide rg yazi stow exiftool jq fx
 brew install --cask ghostty iterm2 rectangle hammerspoon pika shottr iina stats zed syncthing-app
 ```
 
-stuff I use for work:
+Stuff for work:
 
 ```sh
 brew install dbeaver-community postgresql@16 caddy
 ```
 
-browsers:
+Multiple browsers:
 
 ```sh
 brew install zen helium-browser ungoogled-chromium 
@@ -38,11 +38,11 @@ AI stuff:
 brew install claude codex steipete/tap/codexbar 
 ```
 
-also install:
+Install these apps manually from their sites:
 
 * [Docker Desktop](https://docs.docker.com/desktop/setup/install/mac-install/),
-* Hyperkey from https://hyperkey.app, and
-* MDV from https://www.mowglii.com/mdv.
+* [Hyperkey](https://hyperkey.app), and
+* [MDV](https://www.mowglii.com/mdv).
 
 Set fish as the default shell:
 
@@ -149,3 +149,33 @@ Configure [iTerm2](https://iterm2.com) to open with a shortcut to emulate Yakuak
 3. In iTerm2's Settings -> Appearance -> Exclude from Dock and Command-Tab Application Switcher.
 4. In iTerm2's Settings -> Profiles -> Windows -> Style -> Select Maximized.
 5. In iTerm2's Settings -> Advanced -> Set 'Add status bar icon when excluded from dock?' to 'No'.
+ 
+## Browser configuration
+
+Set up Zen/Firefox to use Bookmark Keywords:
+
+1. Press Command+Shift+O to open the Library.
+2. Right click on Bookmarks Menu -> Add Folder... -> Name it **keywords**.
+3. Right click on that folder -> Add Bookmark... 
+4. Fill in the Name (e.g., `pr`), URL (e.g., `https://github.com/bnuredini/%s`), and Keyword fields (e.g., `pr`).
+5. Now you can go to the browser's address bar and type **pr <some-repo-name>** and press Enter to
+   go to `https://github.com/bnuredini/<some-repo-name>`
+
+Use these keyword-URL bindings:
+
+* pr -> https://github.com/bnuredini/%s
+* pc -> https://github.com/search?q=owner%3Abnuredini+%s&type=code
+* w -> https://en.wikipedia.org/w/index.php?search=%s
+* yt -> https://www.youtube.com/results?search_query=%s
+* whois -> https://lookup.icann.org/en/lookup?name=%s
+* archive -> https://web.archive.org/web/*/%s
+* osm -> https://www.openstreetmap.org/search?query=%s
+* urban -> https://www.urbandictionary.com/define.php?term=%s
+* v -> https://www.vocabulary.com/dictionary/%s
+* hn -> https://hn.algolia.com/?q=%s
+
+For Chromium-based browsers, do the following:
+
+1. Open `chrome://settings/searchEngines`
+2. Go to Site search -> Add
+3. Fill in the required fields for each binding.

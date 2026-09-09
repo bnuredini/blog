@@ -10,6 +10,7 @@ Ahoy! I'm Bleart Nuredini and here's what I'm doing right [/now](/now).
 
 ## Links
 
-* [Writing](/writing): my thoughts on things (mostly about programming and making software).
+* [Essays](/essays): thoughts on software and other things.
+* [Notes](/notes): my unorganized, public notes.
 * [RSS feed](/index.xml): follow my writing in your favorite RSS feed [reader](https://en.wikipedia.org/wiki/RSS).
 * [/now](/now): what I'm focusing on right now.

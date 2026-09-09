@@ -1,5 +1,5 @@
 +++ 
-title = "Whose Goals Are You Chasing?"
+title = 'Whose Goals Are You Chasing?'
 date = 2025-10-04
 draft = true
 +++ 
@@ -80,4 +80,3 @@ they seem to be doing just fine.
 Or, you take the second option: you find something else to do. Life is this precious thing, so you
 might as well make something out of it. Exercise your agency, follow your gut, take a leap of faith,
 work harder than anyone else, and see where that takes you.
-
