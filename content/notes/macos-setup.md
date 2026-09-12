@@ -16,8 +16,41 @@ Install [Homebrew](https://brew.sh):
 Install these utilities:
 
 ```sh
-brew install neovim fish fnm fzf fd bat tokei zoxide rg yazi stow exiftool jq fx gh git-lfs btop ffmpeg-full imagemagick font-symbols-only-nerd-font poppler yt-dlp
-brew install --cask ghostty iterm2 rectangle hammerspoon pika shottr iina stats zed syncthing-app
+brew install
+  neovim \
+  fish \
+  fnm \
+  fzf \
+  fd \
+  bat \
+  tokei \
+  zoxide \
+  rg \
+  yazi \
+  stow \
+  exiftool \
+  jq \
+  fx \
+  gh \
+  git-lfs \
+  btop \
+  ffmpeg-full \
+  imagemagick \
+  font-symbols-only-nerd-font \
+  poppler \
+  yt-dlp
+
+brew install --cask 
+  ghostty \
+  iterm2 \
+  rectangle \
+  hammerspoon \
+  pika \
+  shottr \
+  iina \
+  stats \
+  zed \
+  syncthing-app
 ```
 
 Stuff for work:
@@ -52,9 +85,6 @@ chsh -s /opt/homebrew/bin/fish
 ```
 
 ## General
-
-Change the keyboard settings to use F1, F2, etc. as the standard function keys: System Settings ->
-Keyboard -> Turn on Use F1, F2, etc. keys as standard function keys.
  
 Change the keyboard input source to U.S.: System Settings -> Keyboard -> Input Sources -> Edit... ->
 Click on the "+" button -> Select English -> Select U.S. -> Add.
@@ -95,6 +125,42 @@ defaults write com.apple.dock autohide-delay -float 0; killall Dock
 defaults write com.apple.dock autohide-time-modifier -float 0; killall Dock
 ```
 
+Don't show recently used apps in a separate section of the Dock:
+
+```sh
+defaults write com.apple.dock "show-recents" -bool "true" && killall Dock
+```
+
+Store screenshots in `~/Pictures`:
+
+```sh
+defaults write com.apple.screencapture "location" -string "~/Pictures" && killall SystemUIServer
+```
+
+Show the path bar in Finder:
+
+```sh
+defaults write com.apple.finder "ShowPathbar" -bool "true" && killall Finder
+```
+
+Search the current folder set when performing a search in Finder:
+
+```sh
+defaults write com.apple.finder "FXDefaultSearchScope" -string "SCcf" && killall Finder
+```
+
+Change the keyboard settings to use F1, F2, etc. as the standard function keys:
+
+```sh
+defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
+```
+
+Move focus bewteen actions with Tab and Shift + Tab:
+
+```sh
+defaults write NSGlobalDomain AppleKeyboardUIMode -int "0"
+```
+
 Update mouse settings: System Settings -> Mouse -> Turn off Natural scrolling.
 
 Remove the Keyboard Viewer menu icon: Hover over the Keyboard Viewer icon on the menu bar -> Press
@@ -113,7 +179,7 @@ Configure [Hammerspoon](https://hammerspoon.org):
   toggle for Hammerspoon in System Settings -> Restart Hammerspoon.
 
 Update the default searching behavior in Finder: Open Finder -> Settings... (press Command-,) ->
-Advanced -> Set 'When performing a search' to 'Search the Current Folder'.
+Advanced -> .
 
 ## At startup
 
