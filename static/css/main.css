@@ -63,11 +63,6 @@ strong, b {
   color: var(--heading-color);
 }
 
-button {
-  margin: 0;
-  cursor: pointer;
-}
-
 main {
   line-height: 1.6;
 }
@@ -90,11 +85,6 @@ blockquote {
   color: var(--code-color);
   padding-left: 20px;
   font-style: italic;
-}
-
-footer {
-  padding: 25px 0;
-  text-align: center;
 }
 
 .title:hover {
@@ -126,14 +116,6 @@ ul.blog-posts li a:visited {
   color: var(--visited-color);
 }
 
-code {
-  padding: 3px;
-}
-
-.highlight, .code {
-  overflow: scroll;
-}
-
 .header-top {
   display: flex;
   align-items: center;
@@ -160,5 +142,23 @@ code {
   22%, 37% {
     opacity: 0.15;
     box-shadow: 0 0 2px #ff2020;
+  }
+}
+
+code {
+  direction: ltr;
+  unicode-bidi: embed;
+  padding: .125em .25em;
+}
+
+pre {
+  padding: 1rem;
+  border-radius: 0.25rem;
+  overflow-x: auto;
+
+  code {
+    padding: 0;
+    border: 0;
+    background: none;
   }
 }

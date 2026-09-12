@@ -112,11 +112,8 @@ Turn on Display the time with seconds.
 Don't show the wallpaper on the menu bar: System Settings -> Menu Bar -> Turn on 'Show menu bar
 background'.
 
-Update Dock settings by going to System Settings -> Desktop & Dock, and doing the following:
-
-* Turn on Automatically hide and show the Dock
-* Turn off Animate opening applications
-* Turn off Show suggested and recent apps in Dock
+Update Dock settings by going to System Settings -> Desktop & Dock, and turnin off **Animate opening
+applications**.
 
 Remove the default delay when trying to show the Dock:
 
@@ -129,6 +126,12 @@ Don't show recently used apps in a separate section of the Dock:
 
 ```sh
 defaults write com.apple.dock "show-recents" -bool "true" && killall Dock
+```
+
+Autohide the Dock:
+
+```sh
+defaults write com.apple.dock "autohide" -bool "true" && killall Dock
 ```
 
 Store screenshots in `~/Pictures`:
