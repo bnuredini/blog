@@ -232,16 +232,16 @@ Set up Zen/Firefox to use Bookmark Keywords:
 
 Use these keyword-URL bindings:
 
-* pr -> https://github.com/bnuredini/%s
-* pc -> https://github.com/search?q=owner%3Abnuredini+%s&type=code
-* w -> https://en.wikipedia.org/w/index.php?search=%s
-* yt -> https://www.youtube.com/results?search_query=%s
-* whois -> https://lookup.icann.org/en/lookup?name=%s
-* archive -> https://web.archive.org/web/*/%s
-* osm -> https://www.openstreetmap.org/search?query=%s
-* urban -> https://www.urbandictionary.com/define.php?term=%s
-* v -> https://www.vocabulary.com/dictionary/%s
-* hn -> https://hn.algolia.com/?q=%s
+* `pr` -> https://github.com/bnuredini/%s
+* `pc` -> https://github.com/search?q=owner%3Abnuredini+%s&type=code
+* `w` -> https://en.wikipedia.org/w/index.php?search=%s
+* `yt` -> https://www.youtube.com/results?search_query=%s
+* `whois` -> https://lookup.icann.org/en/lookup?name=%s
+* `archive` -> https://web.archive.org/web/*/%s
+* `osm` -> https://www.openstreetmap.org/search?query=%s
+* `urban` -> https://www.urbandictionary.com/define.php?term=%s
+* `v` -> https://www.vocabulary.com/dictionary/%s
+* `hn` -> https://hn.algolia.com/?q=%s
 
 For Chromium-based browsers, do the following:
 
