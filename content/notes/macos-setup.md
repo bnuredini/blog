@@ -1,7 +1,6 @@
 +++
 title = 'How I set up macOS for Programming'
-date = 2026-09-16
-draft = true
+date = 2026-10-27
 slug = 'macos-setup'
 +++
 
