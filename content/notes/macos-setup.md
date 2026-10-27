@@ -63,12 +63,6 @@ Multiple browsers:
 brew install zen helium-browser ungoogled-chromium 
 ```
 
-AI stuff:
-
-```sh
-brew install claude codex steipete/tap/codexbar 
-```
-
 Install these apps manually from their sites:
 
 * [Docker Desktop](https://docs.docker.com/desktop/setup/install/mac-install/),
