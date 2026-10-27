@@ -24,13 +24,11 @@ brew install
   fd \
   bat \
   tokei \
-  zoxide \
   rg \
   yazi \
   stow \
   exiftool \
   jq \
-  fx \
   gh \
   git-lfs \
   btop \
@@ -56,7 +54,7 @@ brew install --cask
 Stuff for work:
 
 ```sh
-brew install dbeaver-community postgresql@16 caddy
+brew install dbeaver-community postgresql@18 caddy
 ```
 
 Multiple browsers:
