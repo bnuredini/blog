@@ -199,7 +199,7 @@ Do the same thing for these file types as well:
 
 Configure [Shottr](https://shottr.cc) by going to Shottr -> Preferences and setting the following:
 
-* Hotkeys -> Set 'Active window screenshot' to Control + Option + Commnad + S
+* Hotkeys -> Set 'Active window screenshot' to Control + Option + Commnad + .
 * Hotkeys -> Set 'Instant Text/QR Recognition' to Control + Option + Commnad + S
 
 Configure [iTerm2](https://iterm2.com) to open with a shortcut to emulate Yakuake's behavior:
