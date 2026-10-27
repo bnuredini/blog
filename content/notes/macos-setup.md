@@ -228,7 +228,7 @@ Use these keyword-URL bindings:
 * `pc` -> https://github.com/search?q=owner%3Abnuredini+%s&type=code
 * `w` -> https://en.wikipedia.org/w/index.php?search=%s
 * `yt` -> https://www.youtube.com/results?search_query=%s
-* `whois` -> https://lookup.icann.org/en/lookup?name=%s
+* `whois` -> https://who.is/whois/%s
 * `archive` -> https://web.archive.org/web/*/%s
 * `osm` -> https://www.openstreetmap.org/search?query=%s
 * `urban` -> https://www.urbandictionary.com/define.php?term=%s
